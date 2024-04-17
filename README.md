@@ -8,12 +8,13 @@ Note: Space complexity is extra space
 
 ---
 
-| #      | Title            | Solution                             | Time   | Space | Difficulty | Tag | Topic                  |
-| ------ | ---------------- | ------------------------------------ | ------ | ----- | ---------- | --- | ---------------------- |
-| 000000 | Recycled Numbers | [C++](./000000_recycled_numbers.cpp) | _O(1)_ |       |            |     | Algorithmic Complexity |
+| #      | Title             | Solution                              | Time   | Space | Difficulty | Tag | Topic                  |
+| ------ | ----------------- | ------------------------------------- | ------ | ----- | ---------- | --- | ---------------------- |
+| 000001 | Recycled Numbers  | [C++](./000001_recycled_numbers.cpp)  | _O(1)_ |       |            |     | Algorithmic Complexity |
+| 000002 | Cooking The Books | [C++](./000002_cooking_the_books.cpp) | _O(1)_ |       |            |     | Algorithmic Complexity |
 
 <br/>
    <div align="right">
-       <b><a href="#competitive_programming">▲ Back to Top</a></b>
+       <b><a href="#competitive-programming">▲ Back to Top</a></b>
    </div>
 <br/>
