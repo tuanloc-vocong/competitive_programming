@@ -22,6 +22,12 @@ Note: Space complexity is extra space
 | 000010 | Tourist           | [C++](./cplusplus/000010_tourist.cpp)           | _O(1)_ |       |            |     | Sorting                       |
 | 000011 | Trouble Sort      | [C++](./cplusplus/000011_trouble_sort.cpp)      | _O(1)_ |       |            |     | Sorting                       |
 | 000012 | Virus             | [C++](./cplusplus/000012_virus.cpp)             | _O(1)_ |       |            |     | Linear Search & Binary Search |
+| 000013 | City              | [C++](./cplusplus/000013_city.cpp)              | _O(1)_ |       |            |     | Linear Search & Binary Search |
+| 000014 | BinhPhuong        | [C++](./cplusplus/000014_binhphuong.cpp)        | _O(1)_ |       |            |     | Linear Search & Binary Search |
+| 000015 | Cake              | [C++](./cplusplus/000015_cake.cpp)              | _O(1)_ |       |            |     | Linear Search & Binary Search |
+| 000016 | Sok               | [C++](./cplusplus/000016_sok.cpp)               | _O(1)_ |       |            |     | Linear Search & Binary Search |
+| 000017 | Safty The Number  | [C++](./cplusplus/000017_safty_the_number.cpp)  | _O(1)_ |       |            |     | Linear Search & Binary Search |
+| 000018 | Distance          | [C++](./cplusplus/000018_distance.cpp)          | _O(1)_ |       |            |     |                               |
 
 <br/>
    <div align="right">

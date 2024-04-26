@@ -7,95 +7,39 @@
 // Topic: Linear Search & Binary Search
 
 /**
- * Victor likes to collect viruses (yes, this is a strange hobby). He has all sorts of harmless and harmful ones that he
- * keeps with him at all times (sealed up very securely of course). He is very attached to his virus collection and he
- * does not like to travel without it. So when he made plans to go to Honolulu, Hawaii, his virus collection was sure to
- * go with him. Unfortunately, Hawaii (unlike other states) requires you to declare any viruses you may have in your
- * possession. Because Hawaii prohibits certain viruses from entering the state (they don’t want their fruit crops destroyed
- * by a rogue virus!), Victor is sure to leave any prohibited viruses at home so that they are not seized and destroyed.
- * Fortunately for Victor, the Hawaiian government has provided an informative website to help Victor determine if his
- * viruses are okay to enter Hawaii or not.
+ * Bản đồ hành tinh Alpha được chia thành lưới ô vuông có kích thước gồm m dòng và n cột. Các dòng đánh số từ trên xuống dưới,
+ * các cột được đánh số từ trái qua phải và đều bắt đầu từ 1. Hai ô gọi là kề nhau nếu có chung cạnh hoặc chung đỉnh. Như vật
+ * mỗi ô kề với tối đa 8 ô.
  *
- * The Problem:
- * Your job is to help Victor determine which viruses he can take with him to Hawaii. The Hawaiian government has provided on
- * their website the exact sequences of DNA that are in the viruses that are prohibited. So if the Hawaiian government said
- * that the following sequence was prohibited:
- * ATTCCGTA
- * Then the following virus would be rejected because it contains that sequence:
- * ATTATTAGGATTACATTCCGTAACCGTTTTAG
- * However, the sequences may not have to be consecutive. They may have a fixed number of “wildcards” (represented by the
- * ASCII star character “*”) meaning that any DNA letter in a DNA sequence will replace that wild card (but only one DNA letter
- * per wildcard). For example, the following sequence:
- * ATA**CGGC*A
- * Would reject the following virus DNA:
- * AGGAAATTACCCCATAGGCGGCTA
+ * Ô ở dòng i, cột j có khả năng sản xuất ai,j​​ đơn vị lương thực trong mỗi tháng với 0≤ai,j≤10^6
+ *
+ * Một khu dân cư được xây dựng trong một ô bất kì trên bản đồ sẽ được cung cấp lương thực sản xuất ra từ tất cả các ô kề với
+ * khu vực dân cư này. Bạn có danh sách k khu dân cư dự kiến sẽ xây dựng, trong đó, khu dân cư thứ i có nhu cầu tiêu thụ ci đơn
+ * vị lương thực mỗi tháng (1≤i≤k). Để tối ưu hóa quy hoạch, khu dân cư thứ i có thể được xây dựng tại ô mà tổng lương thực sản
+ * xuất của các ô kề đúng bằng ci
+ *
+ * Yêu cầu: Với mỗi khu dân cư, hãy cho biết tồn tại hay không trên bản đồ một vị trí để xây dựng đảm bảo yêu cầu trên.
  *
  * Input:
- * You will read in a file that contains both the list of bad virus DNA sequences and then the DNA sequences of Victor’s collection.
- *
- * The first line of the file will contain a single positive integer that represents the number of data sets in the file
- * (unfortunately for Victor, the Hawaiian government updates their website several times a day with new and/or different virus
- * DNA so your program must be able to handle multiple, independent data sets).
- *
- * The first line of each data set will contain a single positive integer, n, (1<n<30) indicating how many bad DNA subsequences
- * were found on the Hawaii government’s website. The following n lines will contain strings of DNA characters that will be at
- * least 1 character long and at most 20 characters in length.
- *
- * Following the bad DNA sequences will be a line containing a single positive integer, m, (1<m<100) which will indicate how many
- * viruses are in Victor’s collection. The following m lines will contain the DNA for his viruses. Each line will contain a string
- * of DNA characters that will be at least 1 character long and at most 200 characters in length.
- *
- * Notes to remember:
- *      The DNA alphabet only consists of the letters: A, C, G, and T.
- *      All letters will be uppercase.
- *      A “” in the bad DNA sequences indicates a wildcard which must be matched by any one DNA letter in Victor’s virus DNA. There
- *      will be no “”s in the DNA sequences of Victor’s viruses.
- *      Bad virus DNA in one data set is NOT bad virus DNA in another data set.
+ * Dòng đầu chứa của dữ liệu vào chứa 3 số nguyên dương là m,n và k với 3≤m,n≤500, 1≤k≤2000.
+ * Dòng thứ i trong số m dòng tiếp theo chứ n số tự nhiên lần lượt là số lương thực sản xuất được của các ô trên dòng i của bản đồ.
+ * Dòng cuối cùng gồm k số nguyên dương c1,c2,...,ck​​ với ci​​ là nhu cầu tiêu thụ lương thực của khu dân cư thứ i (với 1≤i≤k). Các
+ * số trên cùng một dòng cách nhau bởi đúng một khoảng trắng.
  *
  * Output:
- * At the beginning of each data set, print the line:
- * Data set #k:
- * where k is the data set number starting with 1.
- * For each virus that you check for bad DNA sequences, print the following output if the virus is acceptable in Hawaii:
- * Virus #d: Cool! Victor can take it with him!
- * Or print the following output if the virus is not acceptable in Hawaii (i.e. it matched one of the bad DNA sequences):
- * Virus #d: Nuts. This virus is illegal in Hawaii!
- * Where d should be the virus number, starting with 1, for each data set. Other than replacing dd and k with the numbers as specified,
- * the lines should be printed exactly as shown above (watch your uppercase and lowercase letters as well as punctuation!). The output
- * for each virus should be on its own line (see the Sample Output below for an example).
- * Put a blank line in between data sets as a separator.
+ * Một dòng gồm k số tự nhiên 0 hoặc 1. Số thứ i bằng 1 nếu có thể tìm được vị trí để xây dựng khu dân cư thứ i, trong trường hợp
+ * ngược lại số thứ i bằng 0 (với 1≤i≤k).
  *
  * Example 1:
  * Input:
- * 2
- * 3
- * ATTGG***A
- * **GTTGACCCCCC
- * GAGAGAGAGA
- * 5
- * GATTGATTGAGAGAGAGATCATC
- * CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
- * GGGGGGGAAGTTGACCCCCC
- * AATTGGCATACCCCTTT
- * GGGGAAAATTTTAAAACCCCGGGGGAAAA
- * 2
- * ATGG
- * ATGCATGCATGC
- * 2
- * GCCGCCGCCTGCCGCCGCCT
- * ATATATGGATATATGGATATATGG
+ * 3 4 4
+ * 1 9 7 1
+ * 1 9 9 5
+ * 2 0 0 3
+ * 19 100 27 50
  *
  * Output:
- * Data set #1:
- * Virus #1: Nuts. This virus is illegal in Hawaii!
- * Virus #2: Cool! Victor can take it with him!
- * Virus #3: Nuts. This virus is illegal in Hawaii!
- * Virus #4: Nuts. This virus is illegal in Hawaii!
- * Virus #5: Cool! Victor can take it with him!
- *
- * Data set #2:
- * Virus #1: Cool! Victor can take it with him!
- * Virus #2: Nuts. This virus is illegal in Hawaii!
+ * 1 0 1 0
  **/
 
 #include <iostream>
