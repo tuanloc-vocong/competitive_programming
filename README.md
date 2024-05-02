@@ -28,6 +28,12 @@ Note: Space complexity is extra space
 | 000016 | Sok               | [C++](./cplusplus/000016_sok.cpp)               | _O(1)_ |       |            |     | Linear Search & Binary Search |
 | 000017 | Safty The Number  | [C++](./cplusplus/000017_safty_the_number.cpp)  | _O(1)_ |       |            |     | Linear Search & Binary Search |
 | 000018 | Distance          | [C++](./cplusplus/000018_distance.cpp)          | _O(1)_ |       |            |     |                               |
+| 000019 | TrungVi           | [C++](./cplusplus/000019_trungvi.cpp)           | _O(1)_ |       |            |     |                               |
+| 000020 | Segpar Easy       | [C++](./cplusplus/000020_segpar_easy.cpp)       | _O(1)_ |       |            |     |                               |
+| 000021 | Bit Party         | [C++](./cplusplus/000021_bit_party.cpp)         | _O(1)_ |       |            |     |                               |
+| 000022 | Bullseye          | [C++](./cplusplus/000022_bullseye.cpp)          | _O(1)_ |       |            |     |                               |
+| 000023 | KB                | [C++](./cplusplus/000023_kb.cpp)                | _O(1)_ |       |            |     | Counting                      |
+| 000024 | Doanphu           | [C++](./cplusplus/000024_doanphu.cpp)           | _O(1)_ |       |            |     | Counting                      |
 
 <br/>
    <div align="right">
