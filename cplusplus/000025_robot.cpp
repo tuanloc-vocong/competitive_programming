@@ -7,30 +7,32 @@
 // Topic: Counting
 
 /**
- * Một đơn vị vận chuyển phụ trách một con đường hai chiều với các điểm giao nhận hàng khác nhau. Các điểm giao nhận hàng
- * nằm cách đều nhau thành từng đoạn bằng 1 đơn vị chiều dài. Điểm đầu tiên được đánh số 0. Khi có yêu cầu vận chuyển, nhân
- * viên sẽ nhận hàng tại một điểm A và vận chuyển dọc theo con đường đến điểm B để giao hàng.
+ * Có N robot thực hiện việc sơn vạch kẻ đường, robot thứ i thực hiện công việc từ tọa độ điểm xi​​ đến yi​ trên trục số
+ * (1≤xi≤yi≤10^9​​) và mỗi đơn vị tốn đúng 1 lít sơn. Vậy để hoàn thành công việc robot cần đúng yi−xi​ lít sơn.
  *
- * Yêu cầu: hãy xác định số đoạn đơn vị đưoc đi qua nhiều nhất sau N lần vận chuyển hàng.
+ * Người ta lên kế hoạch để robot không chạm nhau khi làm việc. Và sau khi hoàn thành công việc thì tất cả các điểm từ L
+ * tới R đều đã được sơn. Tuy nhiên ta cần điều 1 robot đi làm việc chỗ khác.
+ *
+ * Hãy tìm 1 robot bị điều đi chỗ khác nhưng công việc sơn từ L tới R vẫn được hoàn thành với N−1 robot còn lại. Đồng thời
+ * lượng sơn của robot bị điều đi cũng là lớn nhất.
  *
  * Input:
- * Dòng đầu ghi số nguyên dương N (N≤1000)
- * N dòng tiếp theo, mỗi dòng ghi 2 số nguyên A B (A≠B;0≤A,B≤1000)
+ * Dòng đầu gồm 3 số N, L, R (2≤N≤10^5​​, 1≤L≤R≤10^9) là số robot thực hiện và 2 đầu của khoảng đường mà phải được sơn.
+ * N dòng tiếp theo, mỗi dòng gồm 2 số xi​​, yi – mô tả công việc của robot thứ i. Dữ liệu đảm bảo luôn có thể tìm ra 1 robot phù hợp.
  *
  * Output:
- * Ghi một số nguyên dương là số đoạn xác định được.
+ * 1 số nguyên là lượng sơn của Robot được điều đi.
  *
  * Example 1:
  * Input:
- * 5
- * 2 5
- * 4 7
- * 6 10
- * 11 7
- * 3 4
+ * 4 1 10
+ * 1 5
+ * 3 8
+ * 5 8
+ * 8 12
  *
  * Output:
- * 6
+ * 5
  **/
 
 #include <iostream>
