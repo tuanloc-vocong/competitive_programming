@@ -59,6 +59,13 @@ Note: Space complexity is extra space
 | 000047 | College Admission              | [C++](./cplusplus/000047_college_admission.cpp)              | _O(1)_ |       |            |     | Stack & Queue                 |
 | 000048 | Train Timetable                | [C++](./cplusplus/000048_train_timetable.cpp)                | _O(1)_ |       |            |     | Heap                          |
 | 000049 | Expedition                     | [C++](./cplusplus/000049_expedition.cpp)                     | _O(1)_ |       |            |     | Heap                          |
+| 000050 | Running Median Again           | [C++](./cplusplus/000050_running_median_again.cpp)           | _O(1)_ |       |            |     | Heap                          |
+| 000051 | Retakes                        | [C++](./cplusplus/000051_retakes.cpp)                        | _O(1)_ |       |            |     | Heap                          |
+| 000052 | Pie Process                    | [C++](./cplusplus/000052_pie_process.cpp)                    | _O(1)_ |       |            |     | Heap                          |
+| 000053 | PolandBall And Forest          | [C++](./cplusplus/000053_polandball_and_forest.cpp)          | _O(1)_ |       |            |     | DFS - BFS                     |
+| 000054 | Relation                       | [C++](./cplusplus/000054_relation.cpp)                       | _O(1)_ |       |            |     | DFS - BFS                     |
+| 000055 | Qbbishop                       | [C++](./cplusplus/000055_qbbishop.cpp)                       | _O(1)_ |       |            |     | DFS - BFS                     |
+| 000056 | Raocay                         | [C++](./cplusplus/000056_raocay.cpp)                         | _O(1)_ |       |            |     | DFS - BFS                     |
 
 <br/>
    <div align="right">
