@@ -1,4 +1,5 @@
 // Title: Qbbishop
+// Source: Đề thi HSG Quốc Gia môn Tin học 2006 - 2007
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong
@@ -39,6 +40,13 @@
  *
  * Output:
  * 3
+ *
+ * Explanation:
+ * Quân tượng đang ở ô (7, 2), ta sẽ di chuyển quân này lần lượt tới:
+ * Ô (6, 3).
+ * Ô (4, 1).
+ * Ô (1, 4).
+ * Vậy quân tượng này có thể tới đích với 3 bước.
  **/
 
 #include <iostream>

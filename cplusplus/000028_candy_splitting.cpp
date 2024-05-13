@@ -1,4 +1,5 @@
 // Title: Candy Splitting
+// Source: Qualification Round 2011 - Code Jam 2011
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong

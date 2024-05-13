@@ -1,4 +1,5 @@
 // Title: Good Triple
+// Source: Codeforces
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong
@@ -36,6 +37,10 @@
  *
  * Output:
  * 3
+ *
+ * Explanation:
+ * In the first example, there are no values x,k for the initial string, so the answer is 0.
+ * In the second example, there are three l,r pairs we need to count: 1,6; 2,6; and 1,5.
  **/
 
 #include <iostream>

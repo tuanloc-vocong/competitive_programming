@@ -66,6 +66,15 @@ Note: Space complexity is extra space
 | 000054 | Relation                       | [C++](./cplusplus/000054_relation.cpp)                       | _O(1)_ |       |            |     | DFS - BFS                     |
 | 000055 | Qbbishop                       | [C++](./cplusplus/000055_qbbishop.cpp)                       | _O(1)_ |       |            |     | DFS - BFS                     |
 | 000056 | Raocay                         | [C++](./cplusplus/000056_raocay.cpp)                         | _O(1)_ |       |            |     | DFS - BFS                     |
+| 000057 | Cirarc                         | [C++](./cplusplus/000057_cirarc.cpp)                         | _O(1)_ |       |            |     | DFS - BFS                     |
+| 000058 | Triangle                       | [C++](./cplusplus/000058_triangle.cpp)                       | _O(1)_ |       |            |     |                               |
+| 000059 | Heap1                          | [C++](./cplusplus/000059_heap1.cpp)                          | _O(1)_ |       |            |     |                               |
+| 000060 | Quà Sinh Nhật                  | [C++](./cplusplus/000060_qua_sinh_nhat.cpp)                  | _O(1)_ |       |            |     |                               |
+| 000061 | Another Snake Game             | [C++](./cplusplus/000061_another_snake_game.cpp)             | _O(1)_ |       |            |     |                               |
+| 000062 | Weight Of Segments             | [C++](./cplusplus/000062_weight_of_segments.cpp)             | _O(1)_ |       |            |     |                               |
+| 000063 | Đường Hoa Nguyễn Huệ           | [C++](./cplusplus/000063_duong_hoa_nguyen_hue.cpp)           | _O(1)_ |       |            |     |                               |
+| 000064 | Dijkstra?                      | [C++](./cplusplus/000064_dijkstra.cpp)                       | _O(1)_ |       |            |     | Dijkstra                      |
+| 000065 | Trip                           | [C++](./cplusplus/000065_trip.cpp)                           | _O(1)_ |       |            |     | Dijkstra                      |
 
 <br/>
    <div align="right">

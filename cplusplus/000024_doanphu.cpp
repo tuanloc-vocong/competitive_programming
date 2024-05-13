@@ -1,4 +1,5 @@
 // Title: Doanphu
+// Source: LHP 2017 - 2018
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong
@@ -31,6 +32,10 @@
  *
  * Output:
  * 6
+ *
+ * Explanation:
+ * (~/images/000024_doanphu_01.png)
+ * Các đoạn có số lần đi qua nhiều nhất (2 lần) là đoạn (3, 4) (4, 5) (6, 7) (7, 8), (8, 9) và (9, 10)
  **/
 
 #include <iostream>

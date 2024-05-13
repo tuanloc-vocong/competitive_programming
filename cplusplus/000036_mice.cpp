@@ -1,4 +1,5 @@
 // Title: Mice
+// Source: Codeforces
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong
@@ -36,6 +37,10 @@
  *
  * Output:
  * 1
+ *
+ * Explanation:
+ * All the three mice will choose the first piece of cheese. Second and third mice will eat this piece. The first one will remain
+ * hungry, because it was running towards the same piece, but it was late. The second piece of cheese will remain uneaten.
  **/
 
 #include <iostream>

@@ -1,4 +1,5 @@
 // Title: Raocay
+// Source: (LHP 2017-2018)
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong
@@ -31,6 +32,9 @@
  *
  * Output:
  * 36
+ *
+ * Explanation:
+ * (~/images/000056_rao_cay_01.png)
  **/
 
 #include <iostream>

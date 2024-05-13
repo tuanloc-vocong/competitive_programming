@@ -1,4 +1,5 @@
 // Title: Dima And A Bad Xor
+// Source: Codeforces
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong

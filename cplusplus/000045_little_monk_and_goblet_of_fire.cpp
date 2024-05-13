@@ -1,4 +1,5 @@
 // Title: Little Monk And Goblet Of Fire
+// Source: Hackerearth
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong
@@ -46,6 +47,25 @@
  * Output:
  * 1 1
  * 1 2
+ *
+ * Explanation:
+ * After first operation, student of 1st school with roll number 1, will stand in the front of the queue as the queue is empty initially.
+ * In the image the student is represented by (x,y), which means that student is in x school and his roll number is y, and rightmost cell
+ * is the front of the queue.
+ * (~/images/000045_little_monk_and_goblet_of_fire_01.png)
+ *
+ * After second operation, student of 2nd school with roll number 1, will stand behind the first student as there is no other member of
+ * the same in the queue.
+ * (~/images/000045_little_monk_and_goblet_of_fire_02.png)
+ *
+ * After third operation, student of 1st school with roll number 2, will stand behind the member of his school in the queue.
+ * (~/images/000045_little_monk_and_goblet_of_fire_03.png)
+ *
+ * After fourth operation, the student in the front will put his name in the Goblet of Fire and move out of the queue.
+ * (~/images/000045_little_monk_and_goblet_of_fire_04.png)
+ *
+ * After fifth operation, the student in the front will put his name in the Goblet of Fire and move out of the queue.
+ * (~/images/000045_little_monk_and_goblet_of_fire_05.png)
  **/
 
 #include <iostream>

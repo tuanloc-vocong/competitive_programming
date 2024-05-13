@@ -1,4 +1,5 @@
 // Title: Naughty Or Nice
+// Source: High School Programming Tournament 2017
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong

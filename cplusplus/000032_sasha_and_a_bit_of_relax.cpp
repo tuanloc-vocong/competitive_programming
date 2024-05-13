@@ -1,4 +1,5 @@
 // Title: Sasha And A Bit Of Relax
+// Source: Codeforces
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong
@@ -49,6 +50,12 @@
  *
  * Output:
  * 0
+ *
+ * Explanation:
+ * Be as cool as Sasha, upsolve problems!
+ * In the first example, the only funny pair is (2,5), as 2 ⊕ 3 = 4 ⊕ 5 = 1.
+ * In the second example, funny pairs are (2,3), (1,4), and (3,6).
+ * In the third example, there are no funny pairs.
  **/
 
 #include <iostream>

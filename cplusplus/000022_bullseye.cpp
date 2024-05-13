@@ -1,4 +1,5 @@
 // Title: Bullseye
+// Source: Google Code Jam 2013 – Round 1A Problem A
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong
@@ -10,6 +11,7 @@
  * Maria has been hired by the Ghastly Chemicals Junkies (GCJ) company to help them manufacture bullseyes. A bullseye consists
  * of a number of concentric rings (rings that are centered at the same point), and it usually represents an archery target.
  * GCJ is interested in manufacturing black-and-white bullseyes.
+ * (~/images/000022_bullseye_01.png)
  *
  * Maria starts with t millilitres of black paint, which she will use to draw rings of thickness 1cm (one centimetre). A ring of
  * thickness 1cm is the space between two concentric circles whose radii differ by 1cm. Maria draws the first black ring around a

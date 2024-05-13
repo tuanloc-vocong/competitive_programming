@@ -1,4 +1,5 @@
 // Title: Cake
+// Source: PTNK 2014-2015
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong
@@ -14,8 +15,10 @@
  * tối đa bằng một nửa trọng lượng bánh đặt bên dưới. Như vậy có thể có những chồng chỉ gồm 1 chiếc bánh kem.
  *
  * Ví dụ: có 8 bánh kem lần lượt có trọng lượng là 2, 5, 7, 6, 9, 8, 4, 2
+ * (~/images/000015_cake_01.png)
  *
  * Một phương án xếp để nhận được 5 chồng bánh là:
+ * (~/images/000015_cake_02.png)
  *
  * Yêu cầu tìm số chồng bánh ít nhất mà Mai có thể sắp xếp được từ n chiếc bánh cho trước.
  *

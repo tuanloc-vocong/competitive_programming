@@ -1,4 +1,5 @@
 // Title: Hamsters And Tigers
+// Source: Codeforces
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong
@@ -39,6 +40,11 @@
  *
  * Output:
  * 0
+ *
+ * Explanation:
+ * In the first example we shouldn't move anybody because the animals of each species already stand apart from the other species.
+ * In the second example you may swap, for example, the tiger in position 2 with the hamster in position 5 and then — the tiger
+ * in position 9 with the hamster in position 7.
  **/
 
 #include <iostream>

@@ -1,4 +1,5 @@
 // Title: Dr Phil Goes To The Ranch
+// Source: Codechef
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong
@@ -50,6 +51,29 @@
  * 3 2 1
  * 1 3 2 6 7 5 4 8 9
  * 4 3 2 5 1
+ *
+ * Explanation:
+ * Sample Case 1
+ * 3 arrives earlier than others therefore 3 meets the doctor and 1 & 2 miss their appointments.
+ * Then 1 arrives but will have to wait for 2 to finish his appointment since they both missed their appointment and 2 was the most recent
+ * one among the two to book it.
+ *
+ * Sample Case 2
+ * 1 arrives before anyone else and meets the doctor, since no one booked an appointment before 1, no one missed their appointment.
+ * Then 3 arrives causing 2 to miss the appointment.
+ * Then 2 arrives and since he is the most recent person to miss an appointment, he meets the doctor.
+ * Then 6 arrives causing 4 & 5 to miss their appointments.
+ * Then 7 arrives and since 5 has not yet arrived, gets to meet the doctor.
+ * Then 5 arrives and since among the people who missed their appointment he is the most recent once, he gets to meet the doctor.
+ * Then 4 arrives and since he is the most recent one to miss his appointment, gets to meet the doctor.
+ * Then 8 and 9 arrive in order and meet the doctor in order.
+ *
+ * Sample Case 3
+ * 4 arrives earliest causing 1, 2, and 3 to miss their appointments.
+ * 2 arrives but cannot meet the doctor as 3 has not yet arrived.
+ * 3 arrives and meets the doctor then 2 meets the doctor.
+ * 5 arrives and meets the doctor.
+ * 1 arrives and meets the doctor.
  **/
 
 #include <iostream>

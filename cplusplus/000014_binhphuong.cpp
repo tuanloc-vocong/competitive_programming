@@ -1,4 +1,5 @@
 // Title: BinhPhuong
+// Source: THT Bảng B 2017
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong
@@ -15,6 +16,7 @@
  * lên, Cam không còn tính, nhẩm trong đầu được nữa, Cam muốn các bạn giúp bé tìm đáp án cho câu hỏi của cô giáo nhé.
  *
  * Hình bên dưới là ảnh Cam chụp góc trái dưới cùng bảng A.
+ * (~/images/000014_binhphuong_01.png)
  *
  * Sau khi chuyển các phần tử của bảng A vào dãy B và sắp theo thứ tự không giảm thì Cam có những phần tử đầu tiên của dãy
  * B là 2,5,5,8,10,10,13,13,17,17,18... Khi cô hỏi K=5 thì Cam đã ngay lập tức đưa ra được đáp án là 10.

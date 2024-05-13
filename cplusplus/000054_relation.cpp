@@ -1,4 +1,5 @@
 // Title: Relation
+// Source: PTNK 2011-2012
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong
@@ -36,6 +37,21 @@
  *
  * Output:
  * 100
+ *
+ * Explanation:
+ * Bộ dữ liệu 1:
+ * Có 2 quan hệ cha-con: 1 là cha của 2, 2 là cha của 3. Vậy không có phần tử nào có quá 1 cha. Điều kiện 1 thoả.
+ * Có 3 quan hệ trưởng bối: 1 là trưởng bối của 2, 2 là trưởng bối của 3 và 1 là trưởng bối của 3. Điều kiện 2 thoả.
+ * Kết quả là 1.
+ *
+ * Bộ dữ liệu 2:
+ * Có 2 quan hệ cha-con: (1) là cha của (2), (3) là cha của (2).
+ * Do (2) có 2 cha nên điều kiện 1 không thoả. Kết quả là 0.
+ *
+ * Bộ dữ liệu 3:
+ * 4 là cha của 1 nên 4 cũng là trưởng bối của 1.
+ * Nhưng ta lại có: 1 là cha của 2, 2 là cha của 3, 3 là cha của 4. Vậy 1 cũng là trưởng bối của 4.
+ * Như vậy, điều kiện 2 không thoả. Kết quả là 0.
  **/
 
 #include <iostream>

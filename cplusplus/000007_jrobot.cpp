@@ -1,4 +1,5 @@
 // Title: JRobot
+// Source: Chuyên tin THPT TPHCM 2013-2014
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong
@@ -32,6 +33,9 @@
  *
  * Output:
  * 4
+ *
+ * Explanation:
+ * Một cách đi là (2, 2) - (1, 4) - (3, 3) - (3, 4) - (2, 3)
  **/
 
 #include <iostream>

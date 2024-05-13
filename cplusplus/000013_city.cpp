@@ -1,4 +1,5 @@
 // Title: City
+// Source: PTNK 2012-2013
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong
@@ -40,6 +41,9 @@
  *
  * Output:
  * 1 0 1 0
+ *
+ * Explanation:
+ * Khu dân cư 1 có thể xây được tại ô (1,1). Khu dân cư 3 có thể xây được tại ô (1,2) còn hai khu dân cư 2 và 4 không có phương án xây.
  **/
 
 #include <iostream>

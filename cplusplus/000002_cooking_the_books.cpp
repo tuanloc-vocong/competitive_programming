@@ -1,4 +1,5 @@
 // Title: Cooking The Books
+// Source: Facebook Hackercup 2015 - Qualification Round
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong

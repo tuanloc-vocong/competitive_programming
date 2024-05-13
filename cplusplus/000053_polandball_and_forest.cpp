@@ -1,4 +1,5 @@
 // Title: PolandBall And Forest
+// Source: Codeforces
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong
@@ -42,6 +43,13 @@
  *
  * Output:
  * 1
+ *
+ * Explanation:
+ * In the first sample testcase, possible forest is: 1-2 3-4-5.
+ *
+ * There are 2 trees overall.
+ *
+ * In the second sample testcase, the only possible graph is one vertex and no edges. Therefore, there is only one tree.
  **/
 
 #include <iostream>

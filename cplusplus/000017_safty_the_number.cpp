@@ -1,4 +1,5 @@
 // Title: Safty The Number
+// Source: Round 1B 2012 - Code Jam 2012
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong

@@ -1,4 +1,5 @@
 // Title: Bit Party
+// Source: Round 1A 2018 - Code Jam 2018
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong

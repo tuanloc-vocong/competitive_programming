@@ -1,4 +1,5 @@
 // Title: Zigzags
+// Source: Codeforces
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong
@@ -34,6 +35,13 @@
  * Output:
  * 5
  * 2
+ *
+ * Explanation:
+ * In the first test case, for any four indices i<j<k<l are valid, so the answer is the number of tuples.
+ *
+ * In the second test case, there are 2 valid tuples:
+ * (1,2,4,6):a1=a4​ and a2=a6;
+ * (1,3,4,6):a1=a4​​ and a3=a6.
  **/
 
 #include <iostream>

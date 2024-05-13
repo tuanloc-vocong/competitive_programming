@@ -1,4 +1,5 @@
 // Title: Recycled Numbers
+// Source: Qualification Round 2012 - Google Code Jam
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong

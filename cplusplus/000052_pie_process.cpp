@@ -1,4 +1,5 @@
 // Title: Pie Process
+// Source: Google
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong
@@ -77,6 +78,16 @@
  * Case #3: 10
  * Case #4: 18
  * Case #5: 79
+ *
+ * Explanation:
+ * In the first case, you should buy both pies on the first day, for a total cost of 1 + 1 + 2^2 = 6. On the second day you should buy one
+ * pie for 100 + 1^2 = 101. On the third day you can eat one of the spare pies you bought on the first day.
+ *
+ * In the third case, you should buy and eat the cheapest pie every day, for a daily cost of 1 + 1^2 = 2, and a total cost of 10.
+ *
+ * In the fourth case, one possible solution is to buy two pies on the first day (1 + 1 + 2^2 = 6), two pies on the second day (2 + 2 + 2^2 = 8),
+ * and one pie on the third day (3 + 1^2 = 4) for a total cost of 18. On the fourth and fifth days you can eat your two spare pies from
+ * the first and second days.
  **/
 
 #include <iostream>

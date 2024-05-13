@@ -1,4 +1,5 @@
 // Title: Segpar Easy
+// Source: VNOI 05-A-01
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong
@@ -58,6 +59,13 @@
  *
  * Output:
  * 5
+ *
+ * Explanation:
+ * Ví dụ 1:
+ * Với M=6, một 6-phân đoạn có thể là: [4,1], [2,3], [5,1], [4,2], [5], [2].
+ *
+ * Ví dụ 2:
+ * Với M=5, một 4-phân đoạn có thể là: [1,1,1], [3], [2,2], [1,3,1].
  **/
 
 #include <iostream>

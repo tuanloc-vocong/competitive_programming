@@ -1,4 +1,5 @@
 // Title: Square Tiles
+// Source: Round 1C 2011 - Code Jam 2011
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong

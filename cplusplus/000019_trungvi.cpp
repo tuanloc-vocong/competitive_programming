@@ -1,4 +1,5 @@
 // Title: TrungVi
+// Source: LHP 09-10
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong
@@ -30,6 +31,10 @@
  *
  * Output:
  * 4
+ *
+ * Explanation:
+ * Ví dụ 1:
+ * Số trung vị của các hàng trong bảng lần lượt là 5,3,5,3,4. Số trung vị của dãy 5,4,5,3,4 là 4.
  **/
 
 #include <iostream>

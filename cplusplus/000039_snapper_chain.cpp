@@ -1,4 +1,5 @@
 // Title: Snapper Chain
+// Source: Qualification Round 2010 - Code Jam 2010
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong

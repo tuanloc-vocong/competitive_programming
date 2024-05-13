@@ -1,4 +1,5 @@
 // Title: Distance
+// Source: PTNK 14-15
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong
@@ -38,6 +39,13 @@
  *
  * Output:
  * 6
+ *
+ * Explanation:
+ * Ví dụ 1: Chúng ta sẽ xóa 2 kí tự “n” và “k” ở xâu “ptnk” và 2 kí tự “t” và “h” ở xâu “thpt”. Hai xâu chúng ta nhận được là “pt”
+ * và “tp” là hai xâu bạn bè. Số kí tự cần xóa là 4.
+ *
+ * Ví dụ 2: Chúng ta sẽ xóa cả 3 kí tự ở xâu “tin” và 3 kí tự ở xâu “hoc” để nhận được 2 xâu rỗng. Hai xâu rỗng cũng là 2 xâu bạn bè.
+ * Số kí tự cần xóa chính là 6.
  **/
 
 #include <iostream>

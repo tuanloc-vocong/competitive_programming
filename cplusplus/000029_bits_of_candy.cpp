@@ -1,4 +1,5 @@
 // Title: Bits Of Candy
+// Source: High School Programing Offline 2003
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong

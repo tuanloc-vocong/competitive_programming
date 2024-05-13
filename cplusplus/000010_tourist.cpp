@@ -1,4 +1,5 @@
 // Title: Tourist
+// Source: Facebook Hacker Cup 2018 Qualification Round
 // Difficulty:
 // Tags:
 // Author: tuanloc-vocong
@@ -75,6 +76,13 @@
  * Case #4: LikeSign SweetStop SwagStore
  * Case #5: LikeSign Arcade SwagStore
  * Case #6: WallOfPhones
+ *
+ * Explanation:
+ * In the first case, Alex saw the LikeSign on his first visit and the Arcade on his second visit. On his third visit he sees the SweetStop
+ * as its the most popular of the attractions he hasn't yet seen.
+ *
+ * In the third and fourth cases, Alex sees {LikeSign, Arcade, SweetStop} on his first visit, then {LikeSign, Arcade, SwagStore}, then
+ * {LikeSign, SweetStop, SwagStore}.
  **/
 
 #include <iostream>
