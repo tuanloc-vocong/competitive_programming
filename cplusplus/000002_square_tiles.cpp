@@ -1,10 +1,7 @@
 // Title: Square Tiles
 // Source: Round 1C 2011 - Code Jam 2011
 // Difficulty:
-// Tags:
-// Author: tuanloc-vocong
-// Time Complexity: O(1)
-// Space Complexity:
+// Time Complexity:
 // Topic: Algorithmic Complexity
 
 /**
@@ -16,13 +13,13 @@
  * .####
  * .##..
  *
- * Blue tiles are represented by '#' characters, and white tiles are represented by '.' characters. You do not use other colors.
- * Not everybody likes blue though, and some customers want you to replace all the blue tiles in your picture with red tiles.
- * Unfortunately, red tiles only come in the larger 2×2 size, which makes this tricky.
+ * Blue tiles are represented by '#' characters, and white tiles are represented by '.' characters. You do not use other
+ * colors. Not everybody likes blue though, and some customers want you to replace all the blue tiles in your picture with
+ * red tiles. Unfortunately, red tiles only come in the larger 2×2 size, which makes this tricky.
  *
- * You can cover any 2×2 square of blue tiles with a single red tile, and then repeat until finished. A red tile cannot overlap
- * another red tile, it cannot cover white tiles, and it cannot go outside the picture. For example, you could add red tiles to
- * the previous picture as follows:
+ * You can cover any 2×2 square of blue tiles with a single red tile, and then repeat until finished. A red tile cannot
+ * overlap another red tile, it cannot cover white tiles, and it cannot go outside the picture. For example, you could add
+ * red tiles to the previous picture as follows:
  *
  * ./\..
  * .\//\
@@ -35,13 +32,14 @@
  *
  * Input:
  * The first line of the input gives the number of test cases, T. T test cases follow.
- * Each test case begins with a line containing R and C, the number of rows and columns in a picture. The next R lines each contain
- * exactly C characters, describing the picture. As above, '#' characters represent blue tiles, and '.' characters represent white tiles.
+ * Each test case begins with a line containing R and C, the number of rows and columns in a picture. The next R lines each
+ * contain exactly C characters, describing the picture. As above, '#' characters represent blue tiles, and '.' characters
+ * represent white tiles.
  *
  * Constraint:
- *      1≤T≤50.
- *      1≤R≤50.
- *      1≤C≤50.
+ * 1≤T≤50.
+ * 1≤R≤50.
+ * 1≤C≤50.
  *
  * Output:
  * For each test case, first output one line containing "Case #x:" where x is the case number (starting from 1).
